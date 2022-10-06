@@ -1,17 +1,4 @@
-﻿// Задача 2. Ввести число N. на выходе показать все отрицательные и положительные его значения
-/*
-Console.WriteLine (" Введите число: ");
-int number = Convert.ToInt32(Console.ReadLine());
-
-int current = -number;
-
-while(current <= number)
-{
-    Console.Write(current + " ");
-    current ++;
-}
-*/
-
+﻿
 /*
 // дз задача 2. Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
 
@@ -30,7 +17,7 @@ if (max > n2)
     Console.WriteLine ("max = " + n2);    
     }
 */        
-// ДЗ 4
+// Задача 4
 /*
 Console.Write ("Input a first number: ");
 int n1 = Convert.ToInt32(Console.ReadLine());
@@ -46,15 +33,38 @@ if (n3 > max ) max = n3;
 Console.WriteLine ("max = " + max);
 */
 
+/*
+// Задача 6.
 Console.Write ("Input a number: ");
 int n = Convert.ToInt32(Console.ReadLine());
 
-int even = n % 2;
-if (even > 0) 
+if (n % 2 == 0) 
 {
-    Console.WriteLine ("нет");
+    Console.WriteLine ("да");
 }
 else 
     {
-    Console.WriteLine ("да");    
+    Console.WriteLine ("нет");    
     }
+
+*/
+
+// Задача 8.
+/*
+Console.Write ("Введите любое положительное число: ");
+int num = Convert.ToInt32(Console.ReadLine());
+
+if (num > 0)
+{ 
+    int current = 2;
+    while ( current <= num)
+    {
+        Console.Write (current + " ");
+        current += 2;
+    }
+}
+else 
+    {
+       Console.Write ("Ваше число отрицательное. Повторите попытку. ");
+    }
+*/
